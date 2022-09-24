@@ -1,0 +1,10 @@
+﻿namespace Hotel_Management_System.Models
+{
+    public class UpdateRoom
+    {
+        public bool room_status { get; set; }
+        public string room_comment { get; set; }
+        public string room_inventory { get; set; }
+        public float room_price { get; set; }
+    }
+}
